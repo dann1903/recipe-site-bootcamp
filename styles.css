@@ -1,0 +1,171 @@
+:root {
+
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+h1 {
+    text-align: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+
+.image-box {
+    width: 300px;
+    text-align: center;
+}
+
+
+.image-box img {
+    width: 100%;
+
+    height: auto;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.image-box h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+.image-box p {
+    font-size: 1em;
+    margin-top: 5px;
+    color: #555;
+}
+
+
+.image-box a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-box a:hover img {
+    transform: scale(1.05);
+
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+@font-face {
+    font-family: 'gang of three';
+
+    src: url('assets/fonts/go3v2.ttf') format('ttf'),
+
+        url('assets/fonts/go3v2.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'gang of three';
+
+}
+
+.circle-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: #ff5733;
+
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-button:hover {
+    width: 120px;
+    height: 120px;
+    background-color: #33aaff;
+
+    font-size: 16px;
+    line-height: 120px;
+}
+
+.recipe-container {
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+}
+
+.recipe-text {
+    width: 50%;
+
+}
+
+.recipe-image {
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.recipe-image img {
+    max-width: 100%;
+
+    height: auto;
+}
